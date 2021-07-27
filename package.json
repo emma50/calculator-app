@@ -1,0 +1,45 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emma50/calculator-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emma50/calculator-app/issues"
+  },
+  "homepage": "https://github.com/emma50/calculator-app#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "postcss": "^8.3.6",
+    "postcss-loader": "^6.1.1",
+    "style-loader": "^3.2.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "webpack": "^5.46.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.8",
+    "autoprefixer": "^10.3.1",
+    "core-js": "^3.15.2",
+    "normalize.css": "^8.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
