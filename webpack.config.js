@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/js/index.js',
+  entry: './src/asset/js/index.js',
   output: {
     path: path.resolve(__dirname, 'public/scripts'),
     filename: 'bundle.js',
@@ -24,6 +24,9 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, 'public'),
     publicPath: '/scripts/',
+    // historyApiFallback: {
+    //   index: 'src/index.html',
+    // },
   },
   devtool: 'source-map',
 };
