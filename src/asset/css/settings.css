@@ -1,0 +1,64 @@
+:root {
+  /* Layout */
+  --mobile: 375px;
+  --desktop: 1440px;
+  
+  /* Typography */
+  /* Font */
+  --family: url(https://fonts.google.com/specimen/Spartan);
+  --weight: 700;
+  --size: 32px;
+
+  /* Colors */
+  /* Theme-1 */
+  /* Theme-1 Background */
+  --theme1-main: hsl(222, 26%, 31%);
+  --theme1-toggle: hsl(223, 31%, 20%);
+  --theme1-keypad: hsl(223, 31%, 20%);
+  --theme1-screen: hsl(224, 36%, 15%);
+  /* Theme-1 Keys */
+  --theme1-key-bg: hsl(225, 21%, 49%);
+  --theme1-key-sh: hsl(224, 28%, 35%);
+  --theme1-key-bg-toggle:  hsl(6, 63%, 50%);
+  --theme1-key-bg-toggle-sh:  hsl(6, 70%, 34%);
+  --theme1-key-bg2: hsl(30, 25%, 89%);
+  --theme1-key-sh2: hsl(28, 16%, 65%);
+  /* Theme-1 Text */
+  --theme1-text-blue: hsl(221, 14%, 31%);
+  --theme1-text-white: hsl(0, 0, 100%);
+
+  /* Theme-2 */
+  /* Theme-2 Background */
+  --theme2-main: hsl(0, 0%, 90%);
+  --theme2-toggle: hsl(0, 5%, 81%);
+  --theme2-keypad: hsl(0, 5%, 81%);
+  --theme2-screen: hsl(0, 0%, 93%);
+  /* Theme-2 Keys */
+  --theme2-key-bg: hsl(185, 42%, 37%);
+  --theme2-key-sh: hsl(105, 58%, 25%);
+  --theme2-key-bg-toggle:  hsl(25, 98%, 40%);
+  --theme2-key-bg-toggle-sh:  hsl(25, 99%, 27%);
+  --theme2-key-bg2: hsl(45, 7%, 89%);
+  --theme2-key-sh2: hsl(35, 11%, 61%);
+  /* Theme-2 Text */
+  --theme2-text-blue: hsl(60, 10%, 19%);
+  --theme2-text-white: hsl(0, 0, 100%);
+
+  /* Theme-3 */
+  /* Theme-3 Background */
+  --theme3-main: hsl(268, 75%, 9%);
+  --theme3-toggle: hsl(268, 71%, 12%);
+  --theme3-keypad: hsl(268, 71%, 12%);
+  --theme3-screen: hsl(268, 71%, 12%);
+  /* Theme-3 Keys */
+  --theme3-key-bg: hsl(281, 89%, 26%);
+  --theme3-key-sh: hsl(285, 91%, 52%);
+  --theme3-key-bg-toggle:  hsl(176, 100%, 44%);
+  --theme3-key-bg-toggle-sh:  hsl(177, 92%, 70%);
+  --theme3-key-bg2: hsl(268, 47%, 21%);
+  --theme3-key-sh2: hsl(290, 70%, 36%);
+  /* Theme-3 Text */
+  --theme3-text-blue: hsl(198, 20%, 13%);
+  --theme3-text-white: hsl(0, 0, 100%);
+  --theme3-text-white: hsl(52, 100%, 62%);
+} 

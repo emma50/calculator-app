@@ -1,5 +1,7 @@
 {
   "presets": ["airbnb", "@babel/env"],
   "ignore": [],
-  "plugins": ["@babel/plugin-transform-runtime", { "corejs": 3, "regenerator": true }]
+  "plugins": [
+    ["@babel/plugin-transform-runtime", { "corejs": 3, "regenerator": true }]
+  ]
 }
